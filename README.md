@@ -1,5 +1,3 @@
-A Chat Room System
-
 This is a java swing-based chat room system project. The chat room server communicates with its clients using HTTP protocol and sockets. Clients use HTTP GET requests to poll the server and HTTP POST requests to post messages to the server. Both client and server are multithreaded. The server also saves the messages in a MySQL database and loads them back when it starts.
 
 To run the project:
